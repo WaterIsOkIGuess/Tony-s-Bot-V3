@@ -153,11 +153,11 @@ public class App extends ListenerAdapter {
 			try {
 				
 			    // Host url
-		          String host = "https://weather2020-weather-v1.p.rapidapi.com/zip/e8ecee8ff60c478f8a36280fea0524fe/"+event;
+		          String host = "https://www......./"+event;
 		          String charset = "UTF-8";
 		          // Headers for a request
-		          String x_rapidapi_host = "weather2020-weather-v1.p.rapidapi.com";
-		          String x_rapidapi_key = "484e2a0258msh1a8008e8bae719cp1505efjsnf2a812bfd30a";//Type here your key
+		          String x_rapidapi_host = "HOST KEY";
+		          String x_rapidapi_key = "KEY";//Type here your key
 		          // Params
 		          String s = event;
 		      // Format query for preventing encoding problems
