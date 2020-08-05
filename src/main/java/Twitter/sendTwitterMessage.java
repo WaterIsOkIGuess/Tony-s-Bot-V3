@@ -26,10 +26,10 @@ public class sendTwitterMessage {
     {
     	ConfigurationBuilder cb = new ConfigurationBuilder();
     	cb.setDebugEnabled(true)
-    	  .setOAuthConsumerKey("gM76arM1V9WmzE7MI7d36oX3O")
-    	  .setOAuthConsumerSecret("ehM6QUeJjzlMkxamZqJ8rZmkBYglOcVWqEdRkUXNe8wMrb588c")
-    	  .setOAuthAccessToken("2439222218-a8RvIYdlDRE95akWGcGvAjPfcaVnauyHH6EOAYQ")
-    	  .setOAuthAccessTokenSecret("3A46GJrVLkOUSJs0dNgYX3rKNdix10weH8hz0KZba3KKI");
+    	  .setOAuthConsumerKey("")
+    	  .setOAuthConsumerSecret("")
+    	  .setOAuthAccessToken("")
+    	  .setOAuthAccessTokenSecret("");
     	TwitterFactory tf = new TwitterFactory(cb.build());
     	Twitter twitter = tf.getInstance();
     	try {
