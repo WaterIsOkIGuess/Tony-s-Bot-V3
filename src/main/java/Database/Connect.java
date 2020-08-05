@@ -30,7 +30,7 @@ public class Connect {
 		
 		
 		try (Connection conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost/discordbotprofiles?useSSL=true", "username", "qwe"))
+                "jdbc:mysql://localhost/", "username", "password"))
 					
 			 {
 			
