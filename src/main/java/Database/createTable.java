@@ -22,7 +22,7 @@ public class createTable {
 		            + ")";
 			
 			try (Connection conn = DriverManager.getConnection(
-	                "jdbc:mysql://localhost/discordbotprofiles?useSSL=true", "username", "p@sgT9u2Jkps9_E"); 
+	                "jdbc:mysql://localhost/", "username", "password"); 
 				
 				PreparedStatement preparedStatement = conn.prepareStatement(SQL_CREATE)) {
 
